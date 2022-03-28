@@ -143,8 +143,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .timer__text {
     font-size: 1.6rem;
-    opacity: 0.4;
     line-height: 140%;
+    opacity: 0.4;
 }
 
 .work {
