@@ -3,6 +3,7 @@
 }
 
 html,body {
+    font-family: "Roboto", sans-serif;
     font-size: 62.5%;
     color: #fff;
     background: rgb(0,0,0);
@@ -68,9 +69,10 @@ h1, h2, h3, h4, h5, h6 {
    
 }
 .header__nav a{
-     font-size: 1.6rem;
+    font-size: 1.6rem;
+    font-style: normal;
+    line-height: 150%;
 }
-
 
 .header__logo {
     display: block;
@@ -82,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 55.3rem;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
     font-size: 1.6rem;
+    line-height: 150%;
 }
 .main-display__background {
     position: absolute;
@@ -96,21 +99,27 @@ h1, h2, h3, h4, h5, h6 {
 .main-display .container {
     position: relative;
     z-index: 10;
+    padding-bottom: 22.8rem;
 }
 
 .main-display__header {
     max-width: 76rem;
     margin: 5rem;
     font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 140%;
 }
 .main-display__timer {
     display: flex;
+    margin-left: 5rem;
     margin-bottom: 7.6rem;
 }
 
 .main-display__button {
     background: linear-gradient(94.78deg, #E5E5E5 11.19%, #582A59 93.71%, #451046 93.72%);
     font-size: 1.6rem;
+    line-height: 150%;
+    margin-left: 5rem;
 }
 
 .timer__item {
@@ -128,8 +137,43 @@ h1, h2, h3, h4, h5, h6 {
 }
 .timer__count{
     font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 140%;
+
 }
 .timer__text {
     font-size: 1.6rem;
     opacity: 0.4;
+    line-height: 140%;
 }
+
+.work {
+    padding-top: 20rem;
+    padding-bottom: 24.3rem;
+}
+
+.work__wrap {
+    display: flex;
+}
+
+.work__img {
+    width: 52.6rem;
+    height: 49.9rem;
+    margin-right: 13.9rem;
+}
+.work__text {
+    max-width: 63.6rem;
+    padding-top: 6.9rem;
+}
+.work__header {
+    margin-bottom: 4.5rem;
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 140%;
+}
+
+.work__describtion {
+    font-size: 1.6rem;
+    line-height: 160%;
+}
+
