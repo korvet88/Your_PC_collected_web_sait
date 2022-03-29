@@ -176,4 +176,24 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.6rem;
     line-height: 160%;
 }
-
+.process .container{
+    display: flex;
+}
+.process__title {
+    display: flex;
+    height: 12.7rem;
+    margin-left: 2rem;
+    align-items: center;
+}
+.process__img {
+    display: block;
+    width: 12.7rem;
+    height: 12.7rem;
+}
+.process__header {
+    display: block;
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 140%;
+    
+}
