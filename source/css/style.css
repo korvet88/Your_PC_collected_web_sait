@@ -239,14 +239,21 @@ h1, h2, h3, h4, h5, h6 {
 .team__header {
 }
 .team__header-imge {
+    display: block;
+    width: 12.7rem;
+    height: 12.7rem;
 }
 .team__header-text {
 }
 .team__cards {
 }
 .team__card {
+    
 }
 .card__image {
+    display: block;
+    width: 19rem;
+    height: 19rem;
 }
 .card__name {
 }
