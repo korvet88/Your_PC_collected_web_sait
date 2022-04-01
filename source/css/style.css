@@ -1,13 +1,16 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     box-sizing: border-box;
 }
 
-html,body {
+html,
+body {
     font-family: "Roboto", sans-serif;
     font-size: 62.5%;
     color: #fff;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(6,6,6,1) 35%);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(6, 6, 6, 1) 35%);
 }
 
 img {
@@ -16,18 +19,25 @@ img {
     object-fit: contain;
     flex-shrink: 0;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
-button, input {
+button,
+input {
     outline: none;
     border: none;
     cursor: pointer;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     padding: 0;
     margin: 0;
 }
@@ -66,9 +76,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__nav a:not(last-child) {
     margin-right: 7.1rem;
-   
+
 }
-.header__nav a{
+
+.header__nav a {
     font-size: 1.6rem;
     font-style: normal;
     line-height: 150%;
@@ -86,12 +97,14 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.6rem;
     line-height: 150%;
 }
+
 .main-display__background {
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
 }
+
 .main-display {
     padding-top: 27rem;
 }
@@ -109,6 +122,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     line-height: 140%;
 }
+
 .main-display__timer {
     display: flex;
     margin-left: 5rem;
@@ -135,12 +149,14 @@ h1, h2, h3, h4, h5, h6 {
 .timer__item:not(:last-child) {
     margin-right: 3rem;
 }
-.timer__count{
+
+.timer__count {
     font-size: 3.6rem;
     font-weight: 700;
     line-height: 140%;
 
 }
+
 .timer__text {
     font-size: 1.6rem;
     line-height: 140%;
@@ -161,10 +177,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 49.9rem;
     margin-right: 13.9rem;
 }
+
 .work__text {
     max-width: 63.6rem;
     padding-top: 6.9rem;
 }
+
 .work__header {
     margin-bottom: 4.5rem;
     font-weight: 700;
@@ -177,22 +195,24 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 160%;
 }
 
-.process .container{
+.process .container {
     display: flex;
     flex-direction: column;
 }
+
 .process__title {
     display: flex;
     height: 12.7rem;
-    
     align-items: center;
 }
+
 .process__img {
     display: block;
     width: 12.7rem;
     height: 12.7rem;
-    
+
 }
+
 .process__header {
     display: block;
     font-weight: 700;
@@ -200,6 +220,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 140%;
     margin-left: 2rem;
 }
+
 .process__description {
     display: block;
     font-size: 1.6rem;
@@ -207,20 +228,24 @@ h1, h2, h3, h4, h5, h6 {
     width: 40.1rem;
     margin: 0 0 8rem 2rem;
 }
+
 .container__cards {
     display: flex;
     flex-direction: row;
 }
+
 .card {
     display: flex;
     flex-direction: column;
 
 }
+
 .card__header {
     font-weight: 700;
     font-size: 36px;
     line-height: 140%;
 }
+
 .card__line {
     margin-top: 1.5rem;
     margin-bottom: 4.8rem;
@@ -228,6 +253,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 0.2rem;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
 }
+
 .card__description {
     max-width: 30.6rem;
     font-size: 1.4rem;
@@ -235,29 +261,55 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .team {
+    width: 134.2rem;
+    height: 61.9rem;
+    margin-top: 20rem;
 }
+
 .team__header {
+    display: flex;
+    align-items: center;
+
 }
-.team__header-imge {
+
+.team__header-image {
     display: block;
     width: 12.7rem;
     height: 12.7rem;
+
 }
+
 .team__header-text {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 140%;
 }
+
 .team__cards {
+    display: flex;
+    margin-top: 6rem;
+    justify-content: flex-end;
+    margin-left: 2.4rem;
 }
+
 .team__card {
-    
+    display: block;
+    width: 41.6rem;
+    height: 37.9rem;
 }
+
 .card__image {
     display: block;
     width: 19rem;
     height: 19rem;
+    border-radius: 50%;
+    overflow: hidden;
 }
-.card__name {
-}
-.card__description {
-}
-.button__biography {
-}
+
+
+
+.card__name {}
+
+.card__description {}
+
+.button__biography {}
