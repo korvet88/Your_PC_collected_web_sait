@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto/Roboto-Black.ttf);
+}
+
 *,
 *::after,
 *::before {
@@ -197,7 +202,7 @@ h6 {
 
 .process {
     position: relative;
-  
+
 }
 
 .process .container {
