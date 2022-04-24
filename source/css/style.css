@@ -52,6 +52,10 @@ h6 {
     margin: 0 auto;
 }
 
+:root {
+    --text-size-medium: 1.6rem;
+}
+
 .button {
     border-radius: 5rem;
     padding: 1rem 3rem;
@@ -85,7 +89,7 @@ h6 {
 }
 
 .header__nav a {
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     font-style: normal;
     line-height: 150%;
 }
@@ -99,7 +103,7 @@ h6 {
 .header__button {
     margin-left: 55.3rem;
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 150%;
 }
 
@@ -136,7 +140,7 @@ h6 {
 
 .main-display__button {
     background: linear-gradient(94.78deg, #E5E5E5 11.19%, #582A59 93.71%, #451046 93.72%);
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 150%;
     margin-left: 5rem;
 }
@@ -163,7 +167,7 @@ h6 {
 }
 
 .timer__text {
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 140%;
     opacity: 0.4;
 }
@@ -196,7 +200,7 @@ h6 {
 }
 
 .work__describtion {
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 160%;
 }
 
@@ -222,7 +226,6 @@ h6 {
     display: block;
     width: 12.7rem;
     height: 12.7rem;
-
 }
 
 .process__header {
@@ -235,7 +238,7 @@ h6 {
 
 .process__description {
     display: block;
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 160%;
     width: 40.1rem;
     margin: 0 0 8rem 2rem;
@@ -251,7 +254,7 @@ h6 {
     content: '';
     display: block;
     width: 130rem;
-    height: .2rem;
+    height: 0.2rem;
     position: absolute;
     top: 35rem;
     left: 50%;
@@ -343,7 +346,7 @@ h6 {
 .card__description_team {
     text-align: center;
     margin: 0 auto;
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 100%;
     margin-bottom: 3rem;
 }
@@ -353,7 +356,7 @@ h6 {
     display: block;
     margin: 0 auto;
     padding: 1rem 3rem;
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 150%;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
@@ -382,7 +385,7 @@ h6 {
 
 .assembly__description {
     margin-bottom: 4.52rem;
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 160%;
 }
 
@@ -390,7 +393,7 @@ h6 {
     margin-bottom: 5.08rem;
     background: linear-gradient(94.78deg, #E5E5E5 11.19%, #451046 93.72%);
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: var(--text-size-medium);
     line-height: 150%;
 }
 
@@ -415,5 +418,4 @@ h6 {
 
 .assembly__item:not(:last-child) {
     margin-right: 3rem;
-
 }
